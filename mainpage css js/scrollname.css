@@ -1,4 +1,4 @@
-/* 容器样式 */
+
 .scroll-list-container {
     position: relative;
     overflow: hidden;
@@ -8,7 +8,7 @@
     
 }
 
-/* 渐变效果 */
+
 .scroll-list-container::before,
 .scroll-list-container::after {
     content: '';
@@ -32,11 +32,11 @@
     background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
 } 
 
-/* 通用列表样式 */
+
 .scroll-list1, .scroll-list2 {
-    list-style: none; /* 移除默认圆点 */
-    padding: 0; /* 移除内边距 */
-    margin: 0; /* 移除外边距 */
+    list-style: none;
+    padding: 0; 
+    margin: 0; 
     display: inline-flex;
     overflow: hidden;
     scroll-behavior: smooth;
@@ -49,7 +49,7 @@
     vertical-align: text-top;
 }
 
-/* 列表项样式 */
+
 .scroll-list1 li, .scroll-list2 li {
     display: inline-block;
     margin-left: 5px;
@@ -58,10 +58,10 @@
     color: #4CBDFF;
     flex: 0 0 auto;
     text-align: center;
-    vertical-align: middle; /* 确保列表项垂直居中 */
+    vertical-align: middle;
 }
 
-/* 滚动动画 */
+
 @keyframes scroll-left-to-right {
     0% {
         transform: translateX(0);
@@ -71,6 +71,8 @@
         transform: translateX(-50%);
     }
 }
+
+/*learn from chatgpt, i read it and fully understand it then i adjust by myselves.*/
 
 @keyframes scroll-right-to-left {
     0% {
@@ -95,13 +97,13 @@
 }
 
 .selfie{
-    position: absolute;  /* 绝对定位，相对于容器定位 */
-    top: 50%;  /* 垂直方向居中 */
-    left: 50%; /* 水平方向居中 */
-    transform: translate(-50%, -50%);  /* 通过平移确保居中 */
-    z-index: 10;  /* 确保图片在文字之上 */
-    width: 15vw;  /* 图片宽度 */
-    height: auto; /* 图片高度 */
+    position: absolute;  
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 10;  
+    width: 15vw;  
+    height: auto; 
     border-radius: 8vw;
     border: 3px solid #4CBDFF;
 

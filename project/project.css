@@ -113,8 +113,8 @@ body{
 }
 
 .title{
-    display: inline-flex; /* 使用 inline-flex，确保子元素在一行内 */
-    align-items: center; /* 确保子元素在垂直方向上居中 */
+    display: inline-flex; 
+    align-items: center; 
     justify-content: center; 
 }
 

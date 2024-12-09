@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const acceptButton = document.getElementById('acceptCookie');
     const rejectButton = document.getElementById('rejectCookie');
 
-    // 页面加载时显示弹窗和遮罩层
+    /*with the help of chatgpt*/
     cookiePopup.classList.add('show');
     overlay.classList.add('show');
 

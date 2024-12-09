@@ -35,12 +35,12 @@
 .image {
     width: 400px;
     height: 300px;
-    /* 保持图片比例 */
+    
     border-radius: 8px;
-    /* 可选：图片圆角效果 */
+   
     object-fit: cover;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    /* 可选：阴影效果 */
+   
 }
 
 

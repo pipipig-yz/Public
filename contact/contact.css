@@ -51,6 +51,8 @@
     z-index: 1;
 }
 
+/*with the help of chatgpt*/
+
 .box:nth-child(2) .imgae:hover::before {
     background-image: url('ig-hover.png');
 }

@@ -1,27 +1,29 @@
 .gallery {
     display: flex;
-    justify-content: space-between; /* 图片之间的间距 */
-    flex-wrap: wrap; /* 自动换行 */
-    gap: 20px; /* 设置图片之间的间距 */
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    gap: 20px; 
     padding: 50px;
 }
 
+/*gallery frame build by chatgpt, mannual adapt by me*/
+
 .box {
-    flex: 1 1 28%; /* 每个box占宽度的28% */
-    position: relative; /* 确保图片定位在容器内部 */
-    overflow: hidden; /* 避免图片溢出父容器 */
-    transition: transform 0.3s ease; /* 平滑过渡效果 */
-    display: flex; /* 使用 flexbox 对齐内容 */
-    align-items: center; /* 垂直居中 */
-    justify-content: center; /* 水平居中 */
+    flex: 1 1 28%; 
+    position: relative; 
+    overflow: hidden; 
+    transition: transform 0.3s ease; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
     padding:20px;
 }
 
 .image {
-    width: 100%; /* 图片宽度填充容器 */
-    height: 100%; /* 图片高度填充容器 */
-    object-fit: cover; /* 保持图片比例，同时裁剪多余部分以填满容器 */
-    border-radius: 30px; /* 保持与 .box 的圆角一致 */
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 30px; 
     padding:30px;
 }
 
@@ -31,14 +33,14 @@
 } 
 
 .modal {
-    display: none; /* 默认隐藏 */
+    display: none; 
     position: fixed;
     z-index: 9999;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8); /* 半透明背景 */
+    background-color: rgba(0, 0, 0, 0.8); 
     justify-content: center;
     align-items: center;
 }
